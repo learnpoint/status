@@ -15,6 +15,26 @@
     <script src="https://dev-learnpoint.ekmwest.io/_scripts/components/is-mobile.js"></script>
     <script src="https://dev-learnpoint.ekmwest.io/_scripts/components/language.js"></script>
     <script defer src="https://dev-learnpoint.ekmwest.io/_scripts/pages/status.js" data-data-source-base-url="/"></script>
+
+    <style>
+        .select-language-panel {
+            margin: 4em 0;
+            padding: 1em 0;
+            border-top: 1px solid #999;
+            text-align: center;
+            font-size: .8em;
+        }
+
+        .select-language-button {
+            appearance: none;
+            border: 0;
+            margin: 0;
+            padding: 0;
+            background: transparent;
+            font: inherit;
+            cursor: pointer;
+        }
+    </style>
 </head>
 
 <body>
@@ -24,10 +44,11 @@
             <div class="status-page__pagination"></div>
             <div class="status-page__calendar"></div>
         </div>
-        <p>
-            <button type="button">English</button>
-            <button type="button">Svenska</button>
-        </p>
+        <div class="select-language-panel">
+            <button type="button" class="select-language-button" onClick="setLanguage('en')">English</button>
+            <span>|</span>
+            <button type="button" class="select-language-button" onClick="setLanguage('sv')">Svenska</button>
+        </div>
     </main>
 </body>
 
