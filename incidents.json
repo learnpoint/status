@@ -1,0 +1,15 @@
+[
+    {
+        "date": "2023-11-09",
+        "major": true,
+        "minutes": 324,
+        "title": {
+            "en": "Learnpoint was not available",
+            "sv": "Learnpoint gick inte att använda"
+        },
+        "description": {
+            "en": "Due to an automatic unmanaged update of the hosting environment, Learnpoint stopped working.",
+            "sv": "På grund av en automatisk oövervakad uppdatering av driftsmiljön, slutade Learnpoint fungera."
+        }
+    }
+]
