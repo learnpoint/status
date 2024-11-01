@@ -38,7 +38,7 @@ Modify `incidents.json` and commit to the main branch.
 
 ## Deploy time
 
-Once you've commited your changes to `status.json` or `incidents.json` it takes ~60 seconds for the files to be deployed. Once the files are deployed, your commited changes should be visible immediately on [https://learnpoint.se/status/](https://learnpoint.se/status/) (the json files are fetched with `no-store`). 
+When you've commited `status.json` or `incidents.json` it'll take ~60 seconds for the files to be deployed. Once the files are deployed, your commited changes should be visible on [https://learnpoint.se/status/](https://learnpoint.se/status/) — the json files are fetched from that page with `no-store`.
 
 However, the server (github pages) always responds with a `max-age` of 10 minutes. If the client browser doesn't respect `no-store`, it might take up to ~11 minutes for your commited changes to be visible.
 
