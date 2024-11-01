@@ -26,13 +26,19 @@
 
 ## How to: Set status
 
-Modify `status.json` and push to the main branch.
+Modify `status.json` and commit to the main branch.
 
 
 
 ## How to: Add an incident
 
-Modify `incidents.json` and push to the main branch.
+Modify `incidents.json` and commit to the main branch.
+
+
+
+## Deploy time
+
+Once you've commited your changes to `status.json` or `incidents.json` it will take ~30 seconds for the files to be deployed. However, the files might be cached by the client browser. The server (github pages) always responds with a `max-age` of 10 minutes. Your commited changes should be visible on [https://learnpoint.se/status/](https://learnpoint.se/status/) within no more than 11 minutes.
 
 
 
