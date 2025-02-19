@@ -22,7 +22,7 @@
         },
         "description": {
             "en": "A cache service problem resulted in errors from 15:51 to 16:17. Several requests failed. The problem was solved by a restart of the service.",
-            "sv": "Det uppstod ett problem med en service som hanterar cachning mellan 15:51 to 16:17. Många anrop misslyckades. Problemet löstes genom att starta om servicen."
+            "sv": "Det uppstod ett problem med en service som hanterar cachning mellan 15:51 och 16:17. Många anrop misslyckades. Problemet löstes genom att starta om servicen."
         }
     }
 ]
