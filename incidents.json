@@ -11,5 +11,18 @@
             "en": "Due to an automatic unmanaged update of the hosting environment, Learnpoint stopped working.",
             "sv": "En automatisk oövervakad uppdatering av driftsmiljön gjorde att Learnpoint helt slutade att fungera."
         }
+    },
+    {
+        "date": "2025-02-19",
+        "major": true,
+        "minutes": 26,
+        "title": {
+            "en": "Problem to use Learnpoint",
+            "sv": "Problem att använda Learnpoint"
+        },
+        "description": {
+            "en": "A cache service problem resulted in errors from 15:51 to 16:17. Several requests failed. The problem was solved by a restart of the service.",
+            "sv": "Det uppstod ett problem med en service som hanterar cachning mellan 15:51 to 16:17. Många anrop misslyckades. Problemet löstes genom att starta om servicen."
+        }
     }
 ]
